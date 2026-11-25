@@ -11,7 +11,76 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;/* ===== Identidad visual - Grupo 9 ===== */
+:root {
+  --g9-principal: #0f4c5c;     /* verde azulado oscuro */
+  --g9-acento: #e36414;        /* coral */
+  --g9-fondo: #f6f4ef;         /* crema claro */
+
+  --bs-body-bg: var(--g9-fondo);
+}
+
+/* Navbar y banner: reemplazamos el negro de Bootstrap por el color principal */
+.bg-dark {
+  background-color: var(--g9-principal) !important;
+}
+
+/* Botones principales con el color de acento */
+.btn-primary {
+  --bs-btn-bg: var(--g9-acento);
+  --bs-btn-border-color: var(--g9-acento);
+  --bs-btn-hover-bg: #c4520c;
+  --bs-btn-hover-border-color: #c4520c;
+  --bs-btn-active-bg: #c4520c;
+  --bs-btn-disabled-bg: var(--g9-acento);
+  --bs-btn-disabled-border-color: var(--g9-acento);
+}
+
+/* Etiquetas con el color principal */
+.badge.bg-secondary {
+  background-color: var(--g9-principal) !important;
+}
+
+/* Cards blancas con bordes redondeados y una animación suave al pasar el mouse */
+.card {
+  --bs-card-bg: #ffffff;
+  border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1.25rem rgba(15, 76, 92, 0.15) !important;
+}
+
+.card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+/* Links con el color principal */
+a:not(.btn):not(.nav-link):not(.navbar-brand) {
+  color: var(--g9-principal);
+}
+
+/*  etiquetas multicolor ===== */
+:root {
+  --g9-naranja: #fb8b24;
+  --g9-bordo: #9a031e;
+}
+
+/* Navbar con una línea coral abajo */
+.navbar.bg-dark {
+  border-bottom: 4px solid var(--g9-acento);
+}
+
+
+
+/* Cuatro colores para las etiquetas */
+.tag-color-0 { background-color: var(--g9-acento); color: #ffffff; }
+.tag-color-1 { background-color: var(--g9-principal); color: #ffffff; }
+.tag-color-2 { background-color: var(--g9-naranja); color: #3d1a00; }
+.tag-color-3 { background-color: var(--g9-bordo); color: #ffffff; }
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
