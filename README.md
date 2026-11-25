@@ -44,7 +44,7 @@ npm start        # http://localhost:3001
 ### 2. Frontend
 
 ```bash
-git clone https://github.com/camilaparedes21/Interfaces-tp2.git
+git clone https://github.com/LeanMoreno/TP2-Interfaces-Grupo-9.git
 cd Interfaces-tp2
 npm install
 npm run dev      # http://localhost:5173
