@@ -1,5 +1,5 @@
 {
-  "name": "tp2-grupo9",
+  "name": "proyecto-interfaces-grupo-9-tp2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.9",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
