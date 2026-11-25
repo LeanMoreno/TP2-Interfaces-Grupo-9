@@ -8,7 +8,7 @@ import { Login } from './pages/Login';
 import { Register } from './pages/Register';
 import { Profile } from './pages/Profile';
 import { CreatePost } from './pages/CreatePost';
-import { PostDetail } from './pages/PostDetail';
+import { PostDetail } from './pages/PostDetails';
 
 export function App() {
   return (
